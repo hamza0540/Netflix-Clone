@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color:black;
+    color:white;
+    font-family:"Poppins", sans-serif;
+
+    background-image: url("Netflix_Background.jpg");
+
+}
+.navbar_login{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    padding:1% 3%;
+    z-index:10;
+
+}
+.navbar_netflix_login{
+    height:100%;
+    width:125px;
+}
+.netflix_logo{
+    width:100%;
+    height:100%;
+}
+.Login_bg_img_cont{
+    width:1005;
+    height:850px;
+}
+.Login_bg_img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.Login_bg_overlay{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:115%;
+    background:rgba(0,0,0,0.6);
+}
+.Form{
+    position:absolute;
+    top:10%;
+    left:35%;
+    border:transparent;
+    background:rgba(0,0,0,0.7);
+    height:650px;
+    width:450px;
+    border-radius:4px;
+}
+.Form_content{
+    padding:60px;
+
+}
+.Form_content h1{
+    font-weight:700;
+    font-size:30px;
+    margin-bottom:20px;
+}
+.form_cont{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.email{
+    width:100%;
+    height:50px;
+    border-radius:4px;
+    background-color:rgb(69,69,69);
+    padding:25px 20px;
+
+}
+.password{
+    width:100%;
+    height:50px;
+    border-radius:4px;
+    background-color:rgb(69,69,69);
+    margin-bottom:40px;
+    padding:25px 20px
+}
+.sign_in{
+    width:100%;
+    height:50px;
+    border-radius:4px;
+    background:#dc030f;
+    border:#dc030f;
+    color:white;
+    font-size:20px;
+    margin-bottom: 10px;
+    
+}
+.bottom{
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 50px;
+    justify-content:10px;
+    
+   
+}
+.remember{
+    font-size:2px;
+    color:rgb(69,69,69);
+}
+.need_help{
+    /* padding:0 60px; */
+    margin:auto;
+}
+p{
+    margin-bottom:10px;
+    color:grey
+}
+p a{
+    color:white;
+    
+}
+p #learn{
+    color:rgb(103, 103, 244);
+    cursor: pointer;
+}
+
+.footer{
+    color:#999;
+    font-size:0.9rem;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0.9;
+    
+}
+.footer p{
+    margin-bottom:0.3rem;
+    padding-left:50px;
+    padding-top:30px;
+    
+}
+.footer .footer-cols{
+    display:flex;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:15rem;
+    padding-left:50px;
+    padding-bottom:20px;
+}
+.footer li{
+    line-height:1.9;
+    cursor:pointer;
+}
+.footer .nav_item{
+    padding-left:40px;
+    padding-bottom:50px;
+}
+
